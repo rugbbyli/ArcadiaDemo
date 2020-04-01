@@ -1,0 +1,6 @@
+{
+ :export-namespaces [demo.hello]
+ :source-paths ["Assets/Clojure"]
+ :reload-on-change true
+ :repl/injections (require '[arcadia.core :refer :all])
+ }
